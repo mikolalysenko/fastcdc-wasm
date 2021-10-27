@@ -1,0 +1,15 @@
+[package]
+name = "fastcdc-wasm"
+version = "0.1.0"
+authors = ["Mikola Lysenko"]
+description = "WASM wrapper for fastcdc-rs"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/mikolaysenko/fastcdc-wasm"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+fastcdc = "1.0.5"
